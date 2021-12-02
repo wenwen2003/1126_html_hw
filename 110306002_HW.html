@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+	#a { 
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 40px;
+     font-size: 30pt;
+	}
+	
+	span{color: yellow;}
+	
+	.b{
+	 font-family: monospace
+	}
+
+</style>
+</head>
+<body>
+<form>
+
+<table border = "1" style font = "DFKai-sb">
+	<tr>
+		<th colspan="3" id="a"><u>About -- 110306002</u></th>
+	</tr>
+<tr>
+	<td rowspan="3"> 
+		<img src="personal photo.png"width = "100"height = "100">
+		<br>personal photo
+	</td>
+	<td colspan="2">
+		<label>Name:
+		<input name = "name" type = "text" size = "25" maxlength="30">
+	</label><br>
+	<label>Gender:</label>
+	<input type="radio" name = "Gender" value = "Male" id="co1">Male
+	<input type="radio" name = "Gender" value = "Male" >Female
+	<input type="radio" name = "Gender" value = "Other">Other
+	</td>
+</tr>
+<tr>
+	<td>
+		<label>Country:</label>
+	<select name = "selection">
+		<option value = "Taipei"selected>Taipei</option>
+		<option value = "Tainan">Tainan</option>
+		<option value = "Taichung">Taichung</option>
+		<option value = "Taoyuan">Taoyuan</option>
+	</select>
+
+	</td>
+	<td>
+		<label>Birthday:</label>
+		<input name = "date" type="date"></input>
+	</td>
+</tr>
+<tr>
+	<td colspan="2">
+		<label>E-mail:
+		<input name = "E-mail" type = "text" size = "25" maxlength="30">
+	</label>
+	</td>
+</tr>
+<tr>
+<td colspan="1">
+	<label class="b">Hobby</label>
+</td>
+<td colspan="2">
+	<input type = "checkbox" name = "section" value = "Swimming"><em>Swimming</em>
+	<input type = "checkbox" name = "section" value = "Volleyball"><em>Volleyball</em>
+	<input type = "checkbox" name = "section" value = "Movie"><em>Movie</em>
+	<input type = "checkbox" name = "section" value = "Game"><em>Game</em>
+	<input type = "checkbox" name = "section" value = "Sleep"><em>Sleep</em>
+</tr>
+<tr>
+<td colspan="1">
+	<label style = "font-family:  cursive;">Skill</label>
+</td>
+<td colspan="2">
+	<input type = "checkbox" name = "section" value = "Java"><strong>Java</strong>
+	<input type = "checkbox" name = "section" value = "HTML"><strong>HTML</strong>
+	<input type = "checkbox" name = "section" value = "Python"><strong>Python</strong>
+	<input type = "checkbox" name = "section" value = "Microsoft Office"><strong>Microsoft Office</strong>
+	<input type = "checkbox" name = "section" value = "Premiere"><strong>Premiere</strong>
+</td>
+</tr>
+<tr>
+	<td colspan="1" style = "color: hotpink;"><label>Say<span> Something</span></label></td>
+	<td colspan="2"><textarea placeholder="Say Something here."rows = "1" cols = "50"></textarea></td>
+</tr>
+<tr>
+	<td colspan="3">
+	<input type  = "submit" value = "提交">
+	<input type  = "reset" value = "清除">
+	</td>
+</tr>
+</form>
+</table>
+</body>
+</html>
